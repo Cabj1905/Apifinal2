@@ -1,0 +1,68 @@
+.form-container-liberar {
+    background-color: #F2E9E4; /* Fondo cálido */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  /* Título del formulario */
+  .form-container-liberar h1 {
+    color: #4A4E69; /* Texto oscuro */
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Campo de entrada */
+  .form-container-liberar input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #C9ADA7;
+    background-color: #F9F5F0; /* Fondo claro */
+    font-size: 1rem;
+    color: #22223B;
+  }
+  
+  /* Placeholder con estilo */
+  .form-container-liberar input::placeholder {
+    color: #9A8C98; /* Color suave */
+    font-style: italic;
+  }
+  
+  /* Efecto al enfocar */
+  .form-container-liberar input:focus {
+    border-color: #4A4E69;
+    box-shadow: 0 0 6px rgba(74, 78, 105, 0.4);
+  }
+  
+  /* Botón de envío */
+  .form-container-liberar .btn {
+    background-color: #D90429; /* Rojo fuerte */
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.3s ease;
+  }
+  
+  .form-container-liberar .btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  
+  /* Mensaje de estado */
+  .form-container-liberar p {
+    margin-top: 15px;
+    color: #4A4E69;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  

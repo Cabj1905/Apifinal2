@@ -1,0 +1,103 @@
+/* Estilos generales */
+/* Estilo general para el contenedor principal */
+.container {
+    background-color: #EAF4F4; /* Fondo azul claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px; /* Ajustado al ancho máximo */
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Título principal */
+  h3 {
+    color: #2C698D; /* Azul oscuro */
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo del formulario de inicio de sesión */
+  form {
+    background-color: #F1FAEE; /* Fondo claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #A3C4BC;
+    background-color: #F1FAEE;
+    font-size: 1rem;
+    color: #1D3557; /* Azul marino */
+    box-sizing: border-box;
+  }
+  
+  /* Placeholder */
+  input[type="text"]::placeholder, input[type="password"]::placeholder {
+    color: #457B9D; /* Azul suave */
+    font-style: italic;
+  }
+  
+  /* Efecto al enfocar los campos de entrada */
+  input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #2C698D;
+    box-shadow: 0 0 6px rgba(44, 105, 141, 0.4);
+  }
+  
+  /* Estilo del botón de inicio de sesión */
+  button {
+    background-color: #457B9D; /* Azul medio */
+    color: #FFFFFF;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.2s ease, opacity 0.3s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  
+  /* Mensaje de error */
+  p {
+    margin-top: 15px;
+    color: #D32F2F; /* Rojo para errores */
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Sección de "Crear cuenta" */
+  .crear-cuenta-container {
+    background-color: #F1FAEE;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .crear-cuenta-container h3 {
+    font-size: 1.5rem;
+    color: #2C698D;
+    margin-bottom: 20px;
+  }
+  
+  

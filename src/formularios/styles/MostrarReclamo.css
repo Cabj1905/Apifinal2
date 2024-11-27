@@ -1,0 +1,68 @@
+/* Estilo general del contenedor */
+.mis-reclamos-container {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título principal */
+  .mis-reclamos-container h3 {
+    color: #333;
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  /* Mensaje de error */
+  .mensaje-error {
+    color: red;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Lista de reclamos */
+  .mis-reclamos-lista {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .mis-reclamos-lista li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  /* Efecto hover para la lista */
+  .mis-reclamos-lista li:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Texto dentro de cada reclamo */
+  .mis-reclamos-lista p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 1em;
+  }
+  
+  .mis-reclamos-lista p strong {
+    color: #333;
+  }
+  
+  /* Imagen dentro de cada reclamo */
+  .mis-reclamos-lista img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-top: 10px;
+  }
+  

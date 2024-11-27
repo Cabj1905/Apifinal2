@@ -1,0 +1,75 @@
+/* Contenedor del formulario */
+.form-container-eliminar {
+    background-color: #EAF4F4; /* Fondo azul claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 400px; /* Ancho máximo del formulario */
+    width: 100%; /* Asegura que el contenedor use todo el espacio disponible */
+    box-sizing: border-box; /* Incluye padding en el ancho total */
+  }
+  
+  /* Título del formulario */
+  .form-container-eliminar h2 {
+    color: #2C698D; /* Azul oscuro */
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Campo de entrada */
+  .form-container-eliminar input {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #A3C4BC;
+    background-color: #F1FAEE; /* Fondo claro */
+    font-size: 1rem;
+    color: #1D3557; /* Azul marino */
+    box-sizing: border-box; /* Incluye padding en el ancho total */
+  }
+  
+  /* Placeholder con estilo */
+  .form-container-eliminar input::placeholder {
+    color: #457B9D; /* Color suave */
+    font-style: italic;
+  }
+  
+  /* Efecto al enfocar */
+  .form-container-eliminar input:focus {
+    border-color: #2C698D; /* Color de borde al enfocar */
+    box-shadow: 0 0 6px rgba(44, 105, 141, 0.4);
+  }
+  
+  /* Botón de envío */
+  .form-container-eliminar button {
+    background-color: #457B9D; /* Azul medio */
+    color: #FFFFFF;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    box-sizing: border-box; /* Incluye padding en el ancho total */
+    transition: transform 0.2s ease, opacity 0.3s ease;
+  }
+  
+  .form-container-eliminar button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  
+  /* Mensaje de estado */
+  .form-container-eliminar p {
+    margin-top: 15px;
+    color: #2C698D; /* Color azul oscuro */
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
